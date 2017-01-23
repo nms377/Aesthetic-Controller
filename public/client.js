@@ -1,6 +1,6 @@
 console.log('open: ');
 // var ws = new WebSocket("ws://10.0.1.94:8081");
-  var ws = new WebSocket("ws://10.48.117.57:8081");
+  var ws = new WebSocket("wss://0.tcp.ngrok.io:15639");
 
 
 console.log('ws: ', ws);
