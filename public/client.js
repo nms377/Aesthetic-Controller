@@ -1,9 +1,9 @@
 console.log('open: ');
 var ws = new WebSocket("ws://10.0.1.94:8081");
 
+console.log('ws: ', ws);
 ws.onopen = function (event) {
   console.log('Connection is open ...');
-  ws.send("Hello Server");
 };
 
 ws.onerror = function (err) {
